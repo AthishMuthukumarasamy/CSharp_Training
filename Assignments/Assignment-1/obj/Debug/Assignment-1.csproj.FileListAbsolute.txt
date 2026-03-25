@@ -1,8 +1,0 @@
-C:\2026\C_Sharp\Assignment-1\Assignment-1\obj\Debug\Assignment-1.csproj.AssemblyReference.cache
-C:\2026\C_Sharp\Assignment-1\Assignment-1\obj\Debug\Assignment-1.csproj.CoreCompileInputs.cache
-C:\2026\C_Sharp\Assignment-1\Assignment-1\bin\Debug\Assignment-1.exe.config
-C:\2026\C_Sharp\Assignment-1\Assignment-1\bin\Debug\Assignment-1.exe
-C:\2026\C_Sharp\Assignment-1\Assignment-1\bin\Debug\Assignment-1.pdb
-C:\2026\C_Sharp\Assignment-1\Assignment-1\obj\Debug\Assignment-1.exe
-C:\2026\C_Sharp\Assignment-1\Assignment-1\obj\Debug\Assignment-1.pdb
-C:\2026\C_Sharp\Assignment-1\Assignment-1\obj\Debug\Assignment-1.exe.config
