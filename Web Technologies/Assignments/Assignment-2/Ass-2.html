@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment-2</title>
+</head>
+<body>
+
+<h3>JavaScript</h3>
+
+<script>
+/* 1. Area of a Triangle (5, 6, 7) */
+var a = 5;
+var b = 6;
+var c = 7;
+
+var s = (a + b + c) / 2;
+var area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+
+document.write("1. Area of the triangle: " + area);
+document.write("<br><br>");
+
+/* 2. Star Pattern */
+document.write("2. Star Pattern:<br>");
+
+for (var i = 1; i <= 5; i++) {
+    for (var j = 1; j <= i; j++) {
+        document.write("* ");
+    }
+    document.write("<br>");
+}
+
+document.write("<br>");
+
+/* 3. Leap Year */
+var year = 2024;
+
+if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    document.write("3. " + year + " is a Leap Year");
+} else {
+    document.write("3. " + year + " is not a Leap Year");
+}
+
+document.write("<br><br>");
+
+/* 4. Days Left Until Independence Day (August 15) */
+var today = new Date();
+var currentYear = today.getFullYear();
+var independenceDay = new Date(currentYear, 7, 15);
+
+if (today > independenceDay) {
+    independenceDay = new Date(currentYear + 1, 7, 15);
+}
+
+var oneDay = 1000 * 60 * 60 * 24;
+var daysLeft = Math.ceil((independenceDay - today) / oneDay);
+
+document.write("4. Days left until Independence Day: " + daysLeft);
+</script>
+
+</body>
+</html>
